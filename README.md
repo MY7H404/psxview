@@ -192,6 +192,9 @@ Offset(P)	Name                	  PID	pslist	psscan	session	thrdproc	  ExitTime
 0xf800caeac4c0	svchost.exe         	 8808	True	True	True	True	N/A
 0xf800caf3c580	notepad.exe         	 1412	True	True	False	True	2018-08-06 18:12:17.000000
 ```
+## Contribution
+
+Contributions to psxview are welcome. If you encounter issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
 ## TODO
 - [ ] pspcid table
