@@ -14,7 +14,7 @@ Here is an example of psxview. A "False" in any column indicates that the respec
 $ python3 ~/volatility3/vol.py -f memdump.mem -p psxview psxview
 Volatility 3 Framework 2.7.2
 Progress:  100.00		PDB scanning finished                     
-Offset(P)	Name                	  PID	pslist	psscan	session	thrdproc	  ExitTime
+Offset(P)	Name                	  PID	pslist	psscan	session	thrdproc	ExitTime
 
 0xa7800007d080	svchost.exe         	 4400	True	True	True	True	N/A
 0xa780000b9580	ctfmon.exe          	 4488	True	True	False	True	N/A
