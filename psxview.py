@@ -152,7 +152,7 @@ class PsXview(plugins.PluginInterface):
                 ("psscan", bool), 
                 ("session", str), 
                 ("thrdproc", bool), 
-                ("  ExitTime", datetime.datetime)
+                ("ExitTime", datetime.datetime)
             ],
             self._generator(psscan_tasks, pslist_pids, thrdproc_info)
         )
