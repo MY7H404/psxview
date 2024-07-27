@@ -15,7 +15,7 @@ $ python3 ~/volatility3/vol.py -f memdump.mem -p psxview psxview
 Volatility 3 Framework 2.7.2
 Progress:  100.00		PDB scanning finished                     
 Offset(P)	Name                	  PID	pslist	psscan	session	thrdproc	  ExitTime
---------------  --------------------    -----   ------  ------  ------- --------  ------------------------
+
 0xa7800007d080	svchost.exe         	 4400	True	True	True	True	N/A
 0xa780000b9580	ctfmon.exe          	 4488	True	True	False	True	N/A
 0xa78000101580	NisSrv.exe          	 4668	True	True	True	True	N/A
