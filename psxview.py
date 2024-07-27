@@ -57,7 +57,6 @@ class PsXview(plugins.PluginInterface):
         return threads
 
     def _generator(self, psscan_tasks, pslist_pids, thrdproc_info):
-        print("--------------  --------------------    -----   ------  ------  ------- --------  ------------------------", end='\r')
         pslist_tasks = pslist.PsList.list_processes(self.context, self.config['primary'], self.config['nt_symbols'])
         pslist_task_map = {proc.UniqueProcessId: proc for proc in pslist_tasks}
 
